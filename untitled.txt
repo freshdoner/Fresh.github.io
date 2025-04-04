@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="az">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Frsh Doner</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #fffdfa;
+      color: #333;
+      line-height: 1.6;
+    }
+    header {
+      background-color: #e63946;
+      color: white;
+      text-align: center;
+      padding: 30px 20px;
+    }
+    header h1 {
+      font-size: 2.5em;
+    }
+    .container {
+      max-width: 1000px;
+      margin: auto;
+      padding: 20px;
+      text-align: center;
+    }
+    img {
+      width: 100%;
+      max-width: 400px;
+      border-radius: 15px;
+      margin: 20px auto;
+    }
+    .hours {
+      font-size: 18px;
+      margin: 15px 0;
+    }
+    .menu {
+      margin: 30px 0;
+    }
+    .menu h2 {
+      margin-bottom: 15px;
+    }
+    .menu-item {
+      background-color: #f8f8f8;
+      padding: 15px;
+      margin: 10px auto;
+      border-radius: 10px;
+      max-width: 400px;
+    }
+    .order-btn {
+      background-color: #457b9d;
+      color: white;
+      padding: 12px 25px;
+      font-size: 16px;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      margin-top: 20px;
+      transition: background-color 0.3s;
+    }
+    .order-btn:hover {
+      background-color: #1d3557;
+    }
+    footer {
+      background-color: #eee;
+      text-align: center;
+      padding: 15px;
+      font-size: 14px;
+      color: #666;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Frsh Doner</h1>
+    <p>Ən dadlı dönər burada!</p>
+  </header>
+
+  <div class="container">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Doner_Kebab_Leverkusen.jpg/640px-Doner_Kebab_Leverkusen.jpg" alt="Frsh Doner">
+    
+    <p class="hours"><strong>İş saatlarımız:</strong><br>Hər gün: 10:00 - 22:00</p>
+
+    <div class="menu">
+      <h2>Menyu</h2>
+      <div class="menu-item">
+        <strong>Qarışıq dönər</strong> – 6 AZN
+      </div>
+      <div class="menu-item">
+        <strong>Toyuq dönər</strong> – 5 AZN
+      </div>
+      <div class="menu-item">
+        <strong>Ət dönər</strong> – 7 AZN
+      </div>
+    </div>
+
+    <button class="order-btn">Sifariş et</button>
+  </div>
+
+  <footer>
+    © 2025 Frsh Doner. Bütün hüquqlar qorunur.
+  </footer>
+
+</body>
+</html>
